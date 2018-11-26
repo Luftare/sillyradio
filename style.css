@@ -1,0 +1,94 @@
+body {
+	font-family: helvetica, arial, sans serif;
+}
+
+#canvas {
+	margin-top: 20px;
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	border-radius: 40px;
+}
+
+#lineY {
+	position:absolute;
+	left: -50px;
+	top: 60px;
+}
+
+.buttons {
+	display: inline-block;
+	position:relative;
+	background-color: white;
+    width: 48px;
+	height: 48px;
+	line-height: 48px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+    margin-right: 6px;
+	border-radius: 60px;
+	vertical-align: middle;
+	border-radius: 50px;
+	border: 1px solid white;
+}
+
+.buttonsActive {
+	display: inline-block;
+	position:relative;
+	background-color: white;
+    width: 48px;
+	height: 48px;
+	line-height: 48px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+    margin-right: 6px;
+	border-radius: 60px;
+	vertical-align: middle;
+	border-radius: 50px;
+	border: 1px solid black;
+}
+
+.center {
+	cursor: default;
+	user-select:none;
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	height:100%;
+	text-align: center;
+	background-color:lightgreen;
+	border-radius: 40px;
+}
+
+input:focus {outline:0;}
+
+input[type=range].vVertical {
+    -webkit-appearance: none;
+    background-color: green;
+    width: 200px;
+    height:10px;
+    margin-top: 100px;
+      -webkit-transform:rotate(270deg);       
+    -moz-transform:rotate(270deg);
+    -o-transform:rotate(270deg);
+    -ms-transform:rotate(270deg);
+    transform:rotate(270deg);
+    z-index: 0;
+}
+input[type=range].vHorizon {
+    -webkit-appearance: none;
+    background-color: pink;
+    height: 10px;
+    width:200px;
+
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}

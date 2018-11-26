@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<title>I'm on top</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script type="text/javascript"src="tools.js"></script>
+<script type="text/javascript"src="controller.js"></script>
+<script type="text/javascript"src="sounds.js"></script>
+<script type="text/javascript"src="instruments.js"></script>
+<script type="text/javascript"src="model.js"></script>
+<script type="text/javascript"src="view.js"></script>
+<script type="text/javascript"src="lineplayer.js"></script>
+<div id="content" class="center" unselectable='on' onselectstart='return false;'><br>
+</div>
+
+<div id="linePlayer"class="center">
+	<input type="range" id="lineY" min="-150" max="150" step="1" class="vVertical"/>
+	<canvas id="canvas" unselectable='on' onselectstart='return false;'></canvas>
+	<br>
+	<div id="play" class="buttons">play</div>
+</div>
+</body>
+</html>
